@@ -11,7 +11,9 @@ export default function Week1() {
 
         <div className={"week_about"}>
             <h1>Week 1</h1>
-            <p>Hejjooooooo oooooooo egfsdkggggg ggggggggggggggggggg ggggggggggggggggg gggggggggggggggg ggggggggggg ggggggggggggggggg   ggggggg     gggggg     gggga aaaa</p>
+            <p>During the first week we only had one lesson and we spent it on trying to get to know each other better and talked about our interests. 
+                We also discussed the requirements in order to complete this course and watched a TED talk.
+            </p>
         </div>
         </>
     )

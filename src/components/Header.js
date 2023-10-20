@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <>
           <div className={"box_shadow_holder"}></div>
-          <h1>Angielski C1.1 - Blog</h1>
+          <h1 className={"blog_name"}>Angielski C1.1 - Blog</h1>
         </>
     )
 }

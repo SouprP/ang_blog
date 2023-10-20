@@ -7,5 +7,18 @@
     box-shadow:
             0 5px 280px 50px rgba(255, 255, 255, 0.3),  /* inner white */
             0 10px 280px 250px rgba(255, 0, 255, 0.3), /* middle magenta */
-            0 15px 280px 350px rgba(0, 255, 255, 0.3); /* outer cyan */
-  }
+            0 15px 280px 450px rgba(0, 255, 255, 0.3); /* outer cyan */
+            /*
+            0 5px 280px 50px rgba(255, 255, 255, 0.3), 
+            0 10px 280px 250px rgba(255, 0, 255, 0.3), 
+            0 15px 280px 350px rgba(0, 255, 255, 0.3); 
+            */
+}
+
+.blog_name h1{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+      
+    margin-top: 0px;
+    text-align: center;
+}
