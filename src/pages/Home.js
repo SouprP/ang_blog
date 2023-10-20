@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/index.css'
 import { Link } from 'react-router-dom'
-import Back from '../components/Back'
 import Header from '../components/Header'
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
                 </Link>
               </li>
 
-              <li>
+              <li >
                 <Link>
                 <button>Week 4</button>
                 </Link>
