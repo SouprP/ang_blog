@@ -3,6 +3,7 @@ import '../css/index.css'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import { useState } from 'react'
+// import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -50,7 +51,7 @@ export default function Home() {
               
             </ul>
           </div>
-          
+        
         </>
   )
 }
