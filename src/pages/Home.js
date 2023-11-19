@@ -16,6 +16,9 @@ export default function Home() {
     }, 500)
   }
 
+  // <Link>
+  // <button onClick = {animate} className = {shake ? `shake` : null}>Week 4</button>
+  // </Link>
   return (
         <>
           <Header></Header>
@@ -39,13 +42,40 @@ export default function Home() {
               </li>
 
               <li >
+              <Link to={"/4"}>
+                <button>Week 4</button>
+                </Link>
+              </li>
+              <li>
+              <Link to={"/5"}>
+                <button>Week 5</button>
+                </Link>
+              </li>
+
+              <li >
+              <Link to={"/6"}>
+                <button>Week 6</button>
+                </Link>
+              </li>
+              <li>
+              <Link to={"/7"}>
+                <button>Week 7</button>
+                </Link>
+              </li>
+
+              <li>
                 <Link>
-                <button onClick = {animate} className = {shake ? `shake` : null}>Week 4</button>
+                <button onClick = {animate} className = {shake ? `shake` : null}>Week 8</button>
                 </Link>
               </li>
               <li>
                 <Link>
-                <button onClick = {animate} className = {shake ? `shake` : null}>Week 5</button>
+                <button onClick = {animate} className = {shake ? `shake` : null}>Week 9</button>
+                </Link>
+              </li>
+              <li>
+                <Link>
+                <button onClick = {animate} className = {shake ? `shake` : null}>Week 10</button>
                 </Link>
               </li>
               
