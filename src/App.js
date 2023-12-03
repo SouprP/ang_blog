@@ -9,6 +9,8 @@ import Week4 from './pages/Week4';
 import Week5 from './pages/Week5';
 import Week6 from './pages/Week6';
 import Week7 from './pages/Week7';
+import Week8 from './pages/Week8';
+import Week9 from './pages/Week9';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/5" element={<Week5 />} />
           <Route path="/6" element={<Week6 />} />
           <Route path="/7" element={<Week7 />} />
+          <Route path="/8" element={<Week8 />} />
+          <Route path="/9" element={<Week9 />} />
         </Routes>
       </HashRouter>
     </>

@@ -63,16 +63,17 @@ export default function Home() {
                 </Link>
               </li>
 
-              <li>
-                <Link>
-                <button onClick = {animate} className = {shake ? `shake` : null}>Week 8</button>
+              <li >
+              <Link to={"/8"}>
+                <button>Week 8</button>
                 </Link>
               </li>
               <li>
-                <Link>
-                <button onClick = {animate} className = {shake ? `shake` : null}>Week 9</button>
+              <Link to={"/9"}>
+                <button>Week 9</button>
                 </Link>
               </li>
+
               <li>
                 <Link>
                 <button onClick = {animate} className = {shake ? `shake` : null}>Week 10</button>
